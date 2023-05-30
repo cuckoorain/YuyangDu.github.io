@@ -3,8 +3,10 @@
 <head>
     <title>个人信息</title>
     <style type="text/css">
+        @import url('<https://fonts.googleapis.com/css2?family=Poppins&display=swap>');
         body {
             background-color: #f1f1f1;
+            font-family: 'Poppins', sans-serif;
         }
         h1 {
             text-align: center;
@@ -24,9 +26,35 @@
             line-height: 1.5;
             margin-bottom: 20px;
         }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        li {
+            margin: 0 10px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">个人信息</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
     <h1>个人信息</h1>
     <div class="container">
         <p>姓名：张三</p>
